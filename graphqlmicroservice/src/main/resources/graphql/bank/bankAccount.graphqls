@@ -1,0 +1,6 @@
+# searched automatically by springboot dependency
+type BankAccount{
+    id: ID!
+    client:Client!
+    currency: Currency!
+}

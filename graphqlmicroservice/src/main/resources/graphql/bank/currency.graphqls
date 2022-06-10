@@ -1,0 +1,5 @@
+# enum defined
+enum Currency{
+    INR
+    USD
+}
