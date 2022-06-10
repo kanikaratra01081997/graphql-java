@@ -19,8 +19,8 @@ public class ClientResolver implements GraphQLResolver<BankAccount> { // model i
     public Client client(BankAccount bankAccount)
     {
         log.info("requesting client info :{}", bankAccount.getId());
-//        throw new GraphQLException();
-        return Client.builder().firstname("kanika").lastname("ratra").id(UUID.randomUUID()).build();
+        throw new GraphQLException();
+      //  return Client.builder().firstname("kanika").lastname("ratra").id(UUID.randomUUID()).build();
 
     }
 
