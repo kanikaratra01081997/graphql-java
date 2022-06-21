@@ -1,0 +1,9 @@
+# all mutation of graphql available here
+
+scalar DateTime
+scalar  Date
+
+
+type Mutation{
+    createBankAccount(input:CreateBankAccountInput!): BankAccount
+}
